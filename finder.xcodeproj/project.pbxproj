@@ -7,62 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		AF074CE02DEA4EB400E666DB /* PBXContainerItemProxy */ = {
+		AF2512342DF4852000E298DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AF074CC92DEA4EB300E666DB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF074CD02DEA4EB300E666DB;
-			remoteInfo = finder;
+			remoteGlobalIDString = AF2512262DF4851F00E298DA;
+			remoteInfo = "target-ios";
 		};
-		AF074CEA2DEA4EB400E666DB /* PBXContainerItemProxy */ = {
+		AF25123E2DF4852000E298DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AF074CC92DEA4EB300E666DB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF074CD02DEA4EB300E666DB;
-			remoteInfo = finder;
+			remoteGlobalIDString = AF2512262DF4851F00E298DA;
+			remoteInfo = "target-ios";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF074CD12DEA4EB300E666DB /* finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF074CDF2DEA4EB400E666DB /* finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF074CE92DEA4EB400E666DB /* finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2512272DF4851F00E298DA /* target-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "target-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2512332DF4852000E298DA /* target-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "target-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25123D2DF4852000E298DA /* target-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "target-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AF25124F2DF4866500E298DA /* Exceptions for "target-ios" folder in "target-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AF2512262DF4851F00E298DA /* target-ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AF074CD32DEA4EB300E666DB /* finder */ = {
+		AF2512282DF4851F00E298DA /* target-ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = finder;
+			exceptions = (
+				AF25124F2DF4866500E298DA /* Exceptions for "target-ios" folder in "target-ios" target */,
+			);
+			path = "target-ios";
 			sourceTree = "<group>";
 		};
-		AF074CE22DEA4EB400E666DB /* finderTests */ = {
+		AF2512362DF4852000E298DA /* target-iosTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = finderTests;
+			path = "target-iosTests";
 			sourceTree = "<group>";
 		};
-		AF074CEC2DEA4EB400E666DB /* finderUITests */ = {
+		AF2512402DF4852000E298DA /* target-iosUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = finderUITests;
+			path = "target-iosUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF074CCE2DEA4EB300E666DB /* Frameworks */ = {
+		AF2512242DF4851F00E298DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF074CDC2DEA4EB400E666DB /* Frameworks */ = {
+		AF2512302DF4852000E298DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF074CE62DEA4EB400E666DB /* Frameworks */ = {
+		AF25123A2DF4852000E298DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,9 +88,9 @@
 		AF074CC82DEA4EB300E666DB = {
 			isa = PBXGroup;
 			children = (
-				AF074CD32DEA4EB300E666DB /* finder */,
-				AF074CE22DEA4EB400E666DB /* finderTests */,
-				AF074CEC2DEA4EB400E666DB /* finderUITests */,
+				AF2512282DF4851F00E298DA /* target-ios */,
+				AF2512362DF4852000E298DA /* target-iosTests */,
+				AF2512402DF4852000E298DA /* target-iosUITests */,
 				AF074CD22DEA4EB300E666DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +98,9 @@
 		AF074CD22DEA4EB300E666DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF074CD12DEA4EB300E666DB /* finder.app */,
-				AF074CDF2DEA4EB400E666DB /* finderTests.xctest */,
-				AF074CE92DEA4EB400E666DB /* finderUITests.xctest */,
+				AF2512272DF4851F00E298DA /* target-ios.app */,
+				AF2512332DF4852000E298DA /* target-iosTests.xctest */,
+				AF25123D2DF4852000E298DA /* target-iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,72 +108,72 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF074CD02DEA4EB300E666DB /* finder */ = {
+		AF2512262DF4851F00E298DA /* target-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF074CF32DEA4EB400E666DB /* Build configuration list for PBXNativeTarget "finder" */;
+			buildConfigurationList = AF2512452DF4852000E298DA /* Build configuration list for PBXNativeTarget "target-ios" */;
 			buildPhases = (
-				AF074CCD2DEA4EB300E666DB /* Sources */,
-				AF074CCE2DEA4EB300E666DB /* Frameworks */,
-				AF074CCF2DEA4EB300E666DB /* Resources */,
+				AF2512232DF4851F00E298DA /* Sources */,
+				AF2512242DF4851F00E298DA /* Frameworks */,
+				AF2512252DF4851F00E298DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AF074CD32DEA4EB300E666DB /* finder */,
+				AF2512282DF4851F00E298DA /* target-ios */,
 			);
-			name = finder;
+			name = "target-ios";
 			packageProductDependencies = (
 			);
-			productName = finder;
-			productReference = AF074CD12DEA4EB300E666DB /* finder.app */;
+			productName = "target-ios";
+			productReference = AF2512272DF4851F00E298DA /* target-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF074CDE2DEA4EB400E666DB /* finderTests */ = {
+		AF2512322DF4852000E298DA /* target-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF074CF62DEA4EB400E666DB /* Build configuration list for PBXNativeTarget "finderTests" */;
+			buildConfigurationList = AF2512482DF4852000E298DA /* Build configuration list for PBXNativeTarget "target-iosTests" */;
 			buildPhases = (
-				AF074CDB2DEA4EB400E666DB /* Sources */,
-				AF074CDC2DEA4EB400E666DB /* Frameworks */,
-				AF074CDD2DEA4EB400E666DB /* Resources */,
+				AF25122F2DF4852000E298DA /* Sources */,
+				AF2512302DF4852000E298DA /* Frameworks */,
+				AF2512312DF4852000E298DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF074CE12DEA4EB400E666DB /* PBXTargetDependency */,
+				AF2512352DF4852000E298DA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AF074CE22DEA4EB400E666DB /* finderTests */,
+				AF2512362DF4852000E298DA /* target-iosTests */,
 			);
-			name = finderTests;
+			name = "target-iosTests";
 			packageProductDependencies = (
 			);
-			productName = finderTests;
-			productReference = AF074CDF2DEA4EB400E666DB /* finderTests.xctest */;
+			productName = "target-iosTests";
+			productReference = AF2512332DF4852000E298DA /* target-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AF074CE82DEA4EB400E666DB /* finderUITests */ = {
+		AF25123C2DF4852000E298DA /* target-iosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF074CF92DEA4EB400E666DB /* Build configuration list for PBXNativeTarget "finderUITests" */;
+			buildConfigurationList = AF25124B2DF4852000E298DA /* Build configuration list for PBXNativeTarget "target-iosUITests" */;
 			buildPhases = (
-				AF074CE52DEA4EB400E666DB /* Sources */,
-				AF074CE62DEA4EB400E666DB /* Frameworks */,
-				AF074CE72DEA4EB400E666DB /* Resources */,
+				AF2512392DF4852000E298DA /* Sources */,
+				AF25123A2DF4852000E298DA /* Frameworks */,
+				AF25123B2DF4852000E298DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF074CEB2DEA4EB400E666DB /* PBXTargetDependency */,
+				AF25123F2DF4852000E298DA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AF074CEC2DEA4EB400E666DB /* finderUITests */,
+				AF2512402DF4852000E298DA /* target-iosUITests */,
 			);
-			name = finderUITests;
+			name = "target-iosUITests";
 			packageProductDependencies = (
 			);
-			productName = finderUITests;
-			productReference = AF074CE92DEA4EB400E666DB /* finderUITests.xctest */;
+			productName = "target-iosUITests";
+			productReference = AF25123D2DF4852000E298DA /* target-iosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -173,16 +186,16 @@
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					AF074CD02DEA4EB300E666DB = {
+					AF2512262DF4851F00E298DA = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					AF074CDE2DEA4EB400E666DB = {
+					AF2512322DF4852000E298DA = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = AF074CD02DEA4EB300E666DB;
+						TestTargetID = AF2512262DF4851F00E298DA;
 					};
-					AF074CE82DEA4EB400E666DB = {
+					AF25123C2DF4852000E298DA = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = AF074CD02DEA4EB300E666DB;
+						TestTargetID = AF2512262DF4851F00E298DA;
 					};
 				};
 			};
@@ -200,29 +213,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF074CD02DEA4EB300E666DB /* finder */,
-				AF074CDE2DEA4EB400E666DB /* finderTests */,
-				AF074CE82DEA4EB400E666DB /* finderUITests */,
+				AF2512262DF4851F00E298DA /* target-ios */,
+				AF2512322DF4852000E298DA /* target-iosTests */,
+				AF25123C2DF4852000E298DA /* target-iosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF074CCF2DEA4EB300E666DB /* Resources */ = {
+		AF2512252DF4851F00E298DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF074CDD2DEA4EB400E666DB /* Resources */ = {
+		AF2512312DF4852000E298DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF074CE72DEA4EB400E666DB /* Resources */ = {
+		AF25123B2DF4852000E298DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF074CCD2DEA4EB300E666DB /* Sources */ = {
+		AF2512232DF4851F00E298DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF074CDB2DEA4EB400E666DB /* Sources */ = {
+		AF25122F2DF4852000E298DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF074CE52DEA4EB400E666DB /* Sources */ = {
+		AF2512392DF4852000E298DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,15 +269,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AF074CE12DEA4EB400E666DB /* PBXTargetDependency */ = {
+		AF2512352DF4852000E298DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF074CD02DEA4EB300E666DB /* finder */;
-			targetProxy = AF074CE02DEA4EB400E666DB /* PBXContainerItemProxy */;
+			target = AF2512262DF4851F00E298DA /* target-ios */;
+			targetProxy = AF2512342DF4852000E298DA /* PBXContainerItemProxy */;
 		};
-		AF074CEB2DEA4EB400E666DB /* PBXTargetDependency */ = {
+		AF25123F2DF4852000E298DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF074CD02DEA4EB300E666DB /* finder */;
-			targetProxy = AF074CEA2DEA4EB400E666DB /* PBXContainerItemProxy */;
+			target = AF2512262DF4851F00E298DA /* target-ios */;
+			targetProxy = AF25123E2DF4852000E298DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,85 +398,80 @@
 			};
 			name = Release;
 		};
-		AF074CF42DEA4EB400E666DB /* Debug */ = {
+		AF2512462DF4852000E298DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = finder/finder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B4LJNC844C;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_FILE = "target-ios/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App need camera access.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malvapps.finder;
+				PRODUCT_BUNDLE_IDENTIFIER = "malvapps.target-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		AF074CF52DEA4EB400E666DB /* Release */ = {
+		AF2512472DF4852000E298DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = finder/finder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B4LJNC844C;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_FILE = "target-ios/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App need camera access.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malvapps.finder;
+				PRODUCT_BUNDLE_IDENTIFIER = "malvapps.target-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AF074CF72DEA4EB400E666DB /* Debug */ = {
+		AF2512492DF4852000E298DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,21 +480,18 @@
 				DEVELOPMENT_TEAM = B4LJNC844C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malvapps.finderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "malvapps.target-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/finder";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/target-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/target-ios";
 			};
 			name = Debug;
 		};
-		AF074CF82DEA4EB400E666DB /* Release */ = {
+		AF25124A2DF4852000E298DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,21 +500,19 @@
 				DEVELOPMENT_TEAM = B4LJNC844C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malvapps.finderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "malvapps.target-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/finder";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/target-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/target-ios";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AF074CFA2DEA4EB400E666DB /* Debug */ = {
+		AF25124C2DF4852000E298DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -517,21 +520,18 @@
 				DEVELOPMENT_TEAM = B4LJNC844C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malvapps.finderUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "malvapps.target-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = finder;
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "target-ios";
 			};
 			name = Debug;
 		};
-		AF074CFB2DEA4EB400E666DB /* Release */ = {
+		AF25124D2DF4852000E298DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -539,17 +539,15 @@
 				DEVELOPMENT_TEAM = B4LJNC844C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malvapps.finderUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "malvapps.target-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = finder;
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "target-ios";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -565,29 +563,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF074CF32DEA4EB400E666DB /* Build configuration list for PBXNativeTarget "finder" */ = {
+		AF2512452DF4852000E298DA /* Build configuration list for PBXNativeTarget "target-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF074CF42DEA4EB400E666DB /* Debug */,
-				AF074CF52DEA4EB400E666DB /* Release */,
+				AF2512462DF4852000E298DA /* Debug */,
+				AF2512472DF4852000E298DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF074CF62DEA4EB400E666DB /* Build configuration list for PBXNativeTarget "finderTests" */ = {
+		AF2512482DF4852000E298DA /* Build configuration list for PBXNativeTarget "target-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF074CF72DEA4EB400E666DB /* Debug */,
-				AF074CF82DEA4EB400E666DB /* Release */,
+				AF2512492DF4852000E298DA /* Debug */,
+				AF25124A2DF4852000E298DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF074CF92DEA4EB400E666DB /* Build configuration list for PBXNativeTarget "finderUITests" */ = {
+		AF25124B2DF4852000E298DA /* Build configuration list for PBXNativeTarget "target-iosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF074CFA2DEA4EB400E666DB /* Debug */,
-				AF074CFB2DEA4EB400E666DB /* Release */,
+				AF25124C2DF4852000E298DA /* Debug */,
+				AF25124D2DF4852000E298DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

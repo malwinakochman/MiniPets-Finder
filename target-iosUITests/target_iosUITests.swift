@@ -1,13 +1,13 @@
 //
-//  finderUITests.swift
-//  finderUITests
+//  target_iosUITests.swift
+//  target-iosUITests
 //
-//  Created by Malwina Kochman on 30/05/2025.
+//  Created by Malwina Kochman on 07/06/2025.
 //
 
 import XCTest
 
-final class finderUITests: XCTestCase {
+final class target_iosUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  finderUITestsLaunchTests.swift
-//  finderUITests
+//  target_iosUITestsLaunchTests.swift
+//  target-iosUITests
 //
-//  Created by Malwina Kochman on 30/05/2025.
+//  Created by Malwina Kochman on 07/06/2025.
 //
 
 import XCTest
 
-final class finderUITestsLaunchTests: XCTestCase {
+final class target_iosUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
