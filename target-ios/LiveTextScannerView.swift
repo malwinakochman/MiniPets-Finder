@@ -26,13 +26,16 @@ struct LiveTextScannerView: UIViewControllerRepresentable {
         output.setSampleBufferDelegate(context.coordinator, queue: DispatchQueue(label: "videoQueue"))
         session.addOutput(output)
 
-        let previewLayer = AVCaptureVideoPreviewLayer(session: session)
-        previewLayer.frame = UIScreen.main.bounds
-        previewLayer.videoGravity = .resizeAspectFill
-        controller.view.layer.addSublayer(previewLayer)
-
-        session.startRunning()
-        context.coordinator.session = session
+        DispatchQueue.global(qos: .userInitiated).async {
+            session.startRunning()
+            let previewLayer = AVCaptureVideoPreviewLayer(session: session)
+            previewLayer.frame = UIScreen.main.bounds
+            previewLayer.videoGravity = .resizeAspectFill
+            DispatchQueue.main.async {
+                controller.view.layer.addSublayer(previewLayer)
+                context.coordinator.session = session
+            }
+        }
 
         return controller
     }
@@ -57,8 +60,8 @@ struct LiveTextScannerView: UIViewControllerRepresentable {
                 for observation in results {
                     if let candidate = observation.topCandidates(1).first {
                         let text = candidate.string.trimmingCharacters(in: .whitespacesAndNewlines)
-                        // Szukaj kodów w formacie np. 26123101ES (8 cyfr + 2 litery)
-                        if let match = text.range(of: "\\d{8}[A-Z]{2}", options: .regularExpression) {
+                        // Szukaj kodów w formacie np. 26123101ES (8–11 cyfr + 2 litery)
+                        if let match = text.range(of: "\\d{8,11}[A-Z]{2}", options: .regularExpression) {
                             let code = String(text[match])
                             if code != self.lastDetected {
                                 self.lastDetected = code
